@@ -14,6 +14,7 @@
 		3660EA531AC4EDE500B668E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3660EA521AC4EDE500B668E4 /* Images.xcassets */; };
 		3660EA561AC4EDE500B668E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3660EA541AC4EDE500B668E4 /* LaunchScreen.xib */; };
 		3660EA621AC4EDE600B668E4 /* DeckManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA611AC4EDE600B668E4 /* DeckManagerTests.swift */; };
+		3660EA6C1AC4EE5C00B668E4 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA6B1AC4EE5C00B668E4 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3660EA5B1AC4EDE600B668E4 /* DeckManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660EA601AC4EDE600B668E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3660EA611AC4EDE600B668E4 /* DeckManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckManagerTests.swift; sourceTree = "<group>"; };
+		3660EA6B1AC4EE5C00B668E4 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Deck/Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		3660EA3B1AC4EDE500B668E4 = {
 			isa = PBXGroup;
 			children = (
+				3660EA6B1AC4EE5C00B668E4 /* Deck.swift */,
 				3660EA461AC4EDE500B668E4 /* DeckManager */,
 				3660EA5E1AC4EDE600B668E4 /* DeckManagerTests */,
 				3660EA451AC4EDE500B668E4 /* Products */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3660EA4E1AC4EDE500B668E4 /* SecondViewController.swift in Sources */,
+				3660EA6C1AC4EE5C00B668E4 /* Deck.swift in Sources */,
 				3660EA4A1AC4EDE500B668E4 /* AppDelegate.swift in Sources */,
 				3660EA4C1AC4EDE500B668E4 /* FirstViewController.swift in Sources */,
 			);
