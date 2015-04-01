@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362C75A51AC8812400CA93E7 /* CardList Swift in Resources */ = {isa = PBXBuildFile; fileRef = 362C75A41AC8812400CA93E7 /* CardList Swift */; };
 		3660EA4A1AC4EDE500B668E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA491AC4EDE500B668E4 /* AppDelegate.swift */; };
 		3660EA4C1AC4EDE500B668E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA4B1AC4EDE500B668E4 /* FirstViewController.swift */; };
 		3660EA4E1AC4EDE500B668E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA4D1AC4EDE500B668E4 /* SecondViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362C75A41AC8812400CA93E7 /* CardList Swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CardList Swift"; path = "../CardList Swift"; sourceTree = "<group>"; };
 		3660EA441AC4EDE500B668E4 /* DeckManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660EA481AC4EDE500B668E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3660EA491AC4EDE500B668E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				3660EA6B1AC4EE5C00B668E4 /* Deck.swift */,
+				36BC17361ACB73D500EC7CA7 /* Model */,
 				3660EA461AC4EDE500B668E4 /* DeckManager */,
 				3660EA5E1AC4EDE600B668E4 /* DeckManagerTests */,
 				3660EA451AC4EDE500B668E4 /* Products */,
@@ -116,6 +119,14 @@
 				3660EA601AC4EDE600B668E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BC17361ACB73D500EC7CA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				362C75A41AC8812400CA93E7 /* CardList Swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3660EA511AC4EDE500B668E4 /* Main.storyboard in Resources */,
+				362C75A51AC8812400CA93E7 /* CardList Swift in Resources */,
 				3660EA561AC4EDE500B668E4 /* LaunchScreen.xib in Resources */,
 				3660EA531AC4EDE500B668E4 /* Images.xcassets in Resources */,
 			);
@@ -413,6 +425,7 @@
 				3660EA671AC4EDE600B668E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3660EA681AC4EDE600B668E4 /* Build configuration list for PBXNativeTarget "DeckManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				3660EA6A1AC4EDE600B668E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
