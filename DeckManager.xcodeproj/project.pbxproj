@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		361F9B931AD09C08006109E7 /* testTuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = testTuples.playground; sourceTree = "<group>"; };
 		362C75A41AC8812400CA93E7 /* CardList Swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CardList Swift"; path = "../CardList Swift"; sourceTree = "<group>"; };
 		3660EA441AC4EDE500B668E4 /* DeckManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660EA481AC4EDE500B668E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,7 +124,6 @@
 		36BC17361ACB73D500EC7CA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				361F9B931AD09C08006109E7 /* testTuples.playground */,
 				362C75A41AC8812400CA93E7 /* CardList Swift */,
 			);
 			name = Model;

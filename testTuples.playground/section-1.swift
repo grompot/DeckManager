@@ -15,7 +15,6 @@ enum FactionActive {
 
 //  let cardList:[(index:Int, cardTitle:String,
 //		factionOrder:String, eventYear:Int)]
-var factionOrderDict = [String : Int]()
 
 let cardList =
 [
@@ -26,31 +25,24 @@ let cardList =
     (5, "Wild Weasels", "UNAV",  1965),
     (6, "Aces", "UNVA",  1965),
     (7, "ADSID", "UNVA", 1965),
-    (8, "Arc Light", "UNVA", 1965),
+    ( 8, "Arc Light", "UNVA", 1965),
 ]
+
 
 for card in cardList{
     let (num,event,factionorder, year) = card
+    println("index = \(card.0), Event = \(card.1) Faction order = \(factionorder) Period = \(year)")
 
-    if let inUse = factionOrderDict["factionorder"]? {
-        let newValue: Int = factionOrderDict.updateValue( ++inUse, factionorder)
-    }
-    else {
-        factionOrderDict[factionorder] = 1
-    }
-
- //    use enum for selection (raw values?)
-
+    // need to get to use enum for selection (raw values?)
 switch factionorder{
-    case "UNAV","UNVA":
-        println("Founnd \(factionorder)")
-           default:
+    case "UNAV":
+        println("Found UNAV")
+    case "UNVa":
+        println("Found UNVA")
+    default:
         println("Did not find \(factionorder)")
     }
 }
-for (values, key) in factionOrderDict {
-    println(" \(key) has \(values) in use")
-}
 
 println(cardList.startIndex)
-println(
+println(cardList)
