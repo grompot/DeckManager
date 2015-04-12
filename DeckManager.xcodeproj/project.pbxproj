@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361308461ADAE6F300A09CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361308451ADAE6F300A09CD5 /* AppDelegate.swift */; };
+		361308481ADAE6F300A09CD5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361308471ADAE6F300A09CD5 /* MasterViewController.swift */; };
+		3613084A1ADAE6F300A09CD5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361308491ADAE6F300A09CD5 /* DetailViewController.swift */; };
+		3613084D1ADAE6F300A09CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3613084B1ADAE6F300A09CD5 /* Main.storyboard */; };
+		3613084F1ADAE6F300A09CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3613084E1ADAE6F300A09CD5 /* Images.xcassets */; };
+		361308521ADAE6F300A09CD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361308501ADAE6F300A09CD5 /* LaunchScreen.xib */; };
+		3613085E1ADAE6F400A09CD5 /* DeckManagerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3613085D1ADAE6F400A09CD5 /* DeckManagerTestTests.swift */; };
 		362C75A51AC8812400CA93E7 /* CardList Swift in Resources */ = {isa = PBXBuildFile; fileRef = 362C75A41AC8812400CA93E7 /* CardList Swift */; };
 		3660EA4A1AC4EDE500B668E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA491AC4EDE500B668E4 /* AppDelegate.swift */; };
 		3660EA4C1AC4EDE500B668E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660EA4B1AC4EDE500B668E4 /* FirstViewController.swift */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		361308581ADAE6F400A09CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3660EA3C1AC4EDE500B668E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361308401ADAE6F300A09CD5;
+			remoteInfo = DeckManagerTest;
+		};
 		3660EA5C1AC4EDE600B668E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3660EA3C1AC4EDE500B668E4 /* Project object */;
@@ -28,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361308411ADAE6F300A09CD5 /* DeckManagerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckManagerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361308441ADAE6F300A09CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361308451ADAE6F300A09CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361308471ADAE6F300A09CD5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		361308491ADAE6F300A09CD5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3613084C1ADAE6F300A09CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3613084E1ADAE6F300A09CD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		361308511ADAE6F300A09CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		361308571ADAE6F300A09CD5 /* DeckManagerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckManagerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613085C1ADAE6F400A09CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3613085D1ADAE6F400A09CD5 /* DeckManagerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckManagerTestTests.swift; sourceTree = "<group>"; };
 		362C75A41AC8812400CA93E7 /* CardList Swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CardList Swift"; path = "../CardList Swift"; sourceTree = "<group>"; };
 		3660EA441AC4EDE500B668E4 /* DeckManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660EA481AC4EDE500B668E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +68,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3613083E1ADAE6F300A09CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361308541ADAE6F300A09CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3660EA411AC4EDE500B668E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,12 +99,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361308421ADAE6F300A09CD5 /* DeckManagerTest */ = {
+			isa = PBXGroup;
+			children = (
+				361308451ADAE6F300A09CD5 /* AppDelegate.swift */,
+				361308471ADAE6F300A09CD5 /* MasterViewController.swift */,
+				361308491ADAE6F300A09CD5 /* DetailViewController.swift */,
+				3613084B1ADAE6F300A09CD5 /* Main.storyboard */,
+				3613084E1ADAE6F300A09CD5 /* Images.xcassets */,
+				361308501ADAE6F300A09CD5 /* LaunchScreen.xib */,
+				361308431ADAE6F300A09CD5 /* Supporting Files */,
+			);
+			path = DeckManagerTest;
+			sourceTree = "<group>";
+		};
+		361308431ADAE6F300A09CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				361308441ADAE6F300A09CD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3613085A1ADAE6F400A09CD5 /* DeckManagerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3613085D1ADAE6F400A09CD5 /* DeckManagerTestTests.swift */,
+				3613085B1ADAE6F400A09CD5 /* Supporting Files */,
+			);
+			path = DeckManagerTestTests;
+			sourceTree = "<group>";
+		};
+		3613085B1ADAE6F400A09CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3613085C1ADAE6F400A09CD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3660EA3B1AC4EDE500B668E4 = {
 			isa = PBXGroup;
 			children = (
 				36BC17361ACB73D500EC7CA7 /* Model */,
 				3660EA461AC4EDE500B668E4 /* DeckManager */,
 				3660EA5E1AC4EDE600B668E4 /* DeckManagerTests */,
+				361308421ADAE6F300A09CD5 /* DeckManagerTest */,
+				3613085A1ADAE6F400A09CD5 /* DeckManagerTestTests */,
 				3660EA451AC4EDE500B668E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +155,8 @@
 			children = (
 				3660EA441AC4EDE500B668E4 /* DeckManager.app */,
 				3660EA5B1AC4EDE600B668E4 /* DeckManagerTests.xctest */,
+				361308411ADAE6F300A09CD5 /* DeckManagerTest.app */,
+				361308571ADAE6F300A09CD5 /* DeckManagerTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +211,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		361308401ADAE6F300A09CD5 /* DeckManagerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361308631ADAE6F400A09CD5 /* Build configuration list for PBXNativeTarget "DeckManagerTest" */;
+			buildPhases = (
+				3613083D1ADAE6F300A09CD5 /* Sources */,
+				3613083E1ADAE6F300A09CD5 /* Frameworks */,
+				3613083F1ADAE6F300A09CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckManagerTest;
+			productName = DeckManagerTest;
+			productReference = 361308411ADAE6F300A09CD5 /* DeckManagerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361308561ADAE6F300A09CD5 /* DeckManagerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361308641ADAE6F400A09CD5 /* Build configuration list for PBXNativeTarget "DeckManagerTestTests" */;
+			buildPhases = (
+				361308531ADAE6F300A09CD5 /* Sources */,
+				361308541ADAE6F300A09CD5 /* Frameworks */,
+				361308551ADAE6F300A09CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361308591ADAE6F400A09CD5 /* PBXTargetDependency */,
+			);
+			name = DeckManagerTestTests;
+			productName = DeckManagerTestTests;
+			productReference = 361308571ADAE6F300A09CD5 /* DeckManagerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3660EA431AC4EDE500B668E4 /* DeckManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3660EA651AC4EDE600B668E4 /* Build configuration list for PBXNativeTarget "DeckManager" */;
@@ -173,6 +290,13 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "George Rompot";
 				TargetAttributes = {
+					361308401ADAE6F300A09CD5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					361308561ADAE6F300A09CD5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 361308401ADAE6F300A09CD5;
+					};
 					3660EA431AC4EDE500B668E4 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -197,11 +321,30 @@
 			targets = (
 				3660EA431AC4EDE500B668E4 /* DeckManager */,
 				3660EA5A1AC4EDE600B668E4 /* DeckManagerTests */,
+				361308401ADAE6F300A09CD5 /* DeckManagerTest */,
+				361308561ADAE6F300A09CD5 /* DeckManagerTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3613083F1ADAE6F300A09CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613084D1ADAE6F300A09CD5 /* Main.storyboard in Resources */,
+				361308521ADAE6F300A09CD5 /* LaunchScreen.xib in Resources */,
+				3613084F1ADAE6F300A09CD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361308551ADAE6F300A09CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3660EA421AC4EDE500B668E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +366,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3613083D1ADAE6F300A09CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613084A1ADAE6F300A09CD5 /* DetailViewController.swift in Sources */,
+				361308481ADAE6F300A09CD5 /* MasterViewController.swift in Sources */,
+				361308461ADAE6F300A09CD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361308531ADAE6F300A09CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613085E1ADAE6F400A09CD5 /* DeckManagerTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3660EA401AC4EDE500B668E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +405,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		361308591ADAE6F400A09CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361308401ADAE6F300A09CD5 /* DeckManagerTest */;
+			targetProxy = 361308581ADAE6F400A09CD5 /* PBXContainerItemProxy */;
+		};
 		3660EA5D1AC4EDE600B668E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3660EA431AC4EDE500B668E4 /* DeckManager */;
@@ -252,6 +418,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3613084B1ADAE6F300A09CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3613084C1ADAE6F300A09CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		361308501ADAE6F300A09CD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361308511ADAE6F300A09CD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		3660EA4F1AC4EDE500B668E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,6 +453,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3613085F1ADAE6F400A09CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeckManagerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		361308601ADAE6F400A09CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeckManagerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		361308611ADAE6F400A09CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeckManagerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckManagerTest.app/DeckManagerTest";
+			};
+			name = Debug;
+		};
+		361308621ADAE6F400A09CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeckManagerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckManagerTest.app/DeckManagerTest";
+			};
+			name = Release;
+		};
 		3660EA631AC4EDE600B668E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,6 +645,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		361308631ADAE6F400A09CD5 /* Build configuration list for PBXNativeTarget "DeckManagerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613085F1ADAE6F400A09CD5 /* Debug */,
+				361308601ADAE6F400A09CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		361308641ADAE6F400A09CD5 /* Build configuration list for PBXNativeTarget "DeckManagerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361308611ADAE6F400A09CD5 /* Debug */,
+				361308621ADAE6F400A09CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3660EA3F1AC4EDE500B668E4 /* Build configuration list for PBXProject "DeckManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
